@@ -1,11 +1,7 @@
 # BACalendar
 BACalendar is a customizable calendar for ios.
 
-
-![calender view1](https://drive.google.com/file/d/1rIxThW0oMOw9uieFra9wpxljLSrEm1Js/view?usp=sharing)
-
-![calender view2](https://drive.google.com/file/d/1elde8tg8U6D-kZTVnYWx0hD-pDFC4H0s/view?usp=sharing)
-
+![](https://drive.google.com/uc?export=view&id=1elde8tg8U6D-kZTVnYWx0hD-pDFC4H0s)
 
 # Compatibility
 BACalendar requires iOS 10+ and is compatible with Swift 4.2 projects.
