@@ -11,9 +11,19 @@ or you can download the source code and integrate to your code.
 # Usage
 
 BACalendar was designed to be used effortlessly.
-
 ```
+import BACalender
+```
+implement the delegate ``` CalendarPopUpDelegate ``` 
+```
+func dateChaged(date: Date) {
 
+     ...
+
+}
+```
+Use the function below
+```
  func showCalendar() {
         
         let calenderView = BACalenderView
@@ -33,8 +43,6 @@ BACalendar was designed to be used effortlessly.
         PopupContainer.generatePopupWithView(calenderView).show()
         
     }
-
-
 ```
 
 GOOD LUCK
