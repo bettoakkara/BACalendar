@@ -6,8 +6,13 @@ BACalendar is a customizable calendar for ios.
 # Compatibility
 BACalendar requires iOS 10+ and is compatible with Swift 4.2 projects.
 # Installation
-Drag and Drop the folder BACalender.framework into your project. 
-or you can download the source code and integrate to your code.
+
+```pod 'BACalendar'``` 
+
+or
+
+you can download the source code and integrate to your code.
+
 # Usage
 
 BACalendar was designed to be used effortlessly.
