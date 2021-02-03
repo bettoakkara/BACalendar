@@ -12,8 +12,8 @@ public protocol CalendarPopUpDelegate: class {
     func dateChaged(date: Date)
 }
 
-public var BACalenderBundle = Bundle(identifier: "Akkara.BACalender")
-public let BACalenderView = BACalenderBundle?.loadNibNamed("CalendarPopUp", owner: nil, options: nil)?[0] as! CalendarPopUp
+public var BACalenderBundle = Bundle(for: CalendarPopUp.self)
+public let BACalenderView = BACalenderBundle.loadNibNamed("CalendarPopUp", owner: nil, options: nil)?[0] as! CalendarPopUp
 public class CalendarPopUp: UIView {
     
     
